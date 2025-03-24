@@ -1,0 +1,103 @@
+/* src/pages/Pricing/Pricing.css */
+
+.pricing-page {
+    min-height: 100vh;
+    color: white;
+    background: linear-gradient(#0b004e, #1d152f, #002834);
+    padding: 40px 0;
+  }
+  
+  .pricing-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .pricing-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .pricing-header p {
+    font-size: 1.2rem;
+    color: #bbb;
+  }
+  
+  .pricing-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .pricing-card {
+    background: #0a0c1e;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 280px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .pricing-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .pricing-card h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .price {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0a94f3;
+    margin-bottom: 20px;
+  }
+  
+  .pricing-card ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .pricing-card li {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  .btn {
+    background-color: #0a94f3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #007bff;
+  }
+  
+  .pricing-footer {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .pricing-footer p {
+    font-size: 1rem;
+    color: #bbb;
+  }
+  
+  .pricing-footer a {
+    color: #0a94f3;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .pricing-footer a:hover {
+    text-decoration: underline;
+  }
+  

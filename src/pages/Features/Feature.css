@@ -1,0 +1,76 @@
+/* src/pages/Feature/Feature.css */
+
+.feature-page {
+    min-height: 100vh;
+    color: white;
+    background: linear-gradient(#0b004e, #1d152f, #002834);
+    padding: 40px 0;
+  }
+  
+  .feature-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .feature-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .feature-header p {
+    font-size: 1.2rem;
+    color: #bbb;
+  }
+  
+  .feature-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .feature-card {
+    background: #0a0c1e;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 280px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .feature-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .feature-card h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .feature-card p {
+    font-size: 1rem;
+    color: #bbb;
+    margin-bottom: 20px;
+  }
+  
+  .feature-footer {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .feature-footer p {
+    font-size: 1rem;
+    color: #bbb;
+  }
+  
+  .feature-footer a {
+    color: #0a94f3;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .feature-footer a:hover {
+    text-decoration: underline;
+  }
+  
